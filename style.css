@@ -339,27 +339,7 @@ html {
     /* Adjust the margin as needed */
   }
   
-  #backgroundMusic {
-    display: none;
-    /* Hide the audio element initially */
-  }
-  
-  #audio-controls {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #f08080;
-    /* Light Coral */
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  #audio-controls:hover {
-    background-color: #d9534f;
-    /* Darken the color on hover */
-  }
-  
+
   
   /* Add styling for the video container */
   #video-container {
@@ -370,6 +350,8 @@ html {
   /* Style the video element */
   video {
     max-width: 100%;
+    max-height: 70vh;
+    width: auto;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

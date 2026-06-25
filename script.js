@@ -139,25 +139,7 @@ function hideAllSections() {
   }
   
   
-  // for muisic
-  
-  
-  function playAudio() {
-    const audioControls = document.getElementById('audio-controls');
-    audioControls.classList.add('active');
-    const backgroundMusic = document.getElementById('backgroundMusic');
-    backgroundMusic.play();
-  }
-  function toggleAudio() {
-    const backgroundMusic = document.getElementById('backgroundMusic');
-  
-    if (backgroundMusic.paused) {
-      backgroundMusic.play();
-    } else {
-      backgroundMusic.pause();
-    }
-  }
-  
+
   
   // for video
   
